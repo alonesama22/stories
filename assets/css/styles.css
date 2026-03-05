@@ -1,11 +1,74 @@
 /* styles.css */
 
+.main {
+	background: #FAEBD7;
+	color: #353839;
+}
+
+.happiness {
+  background-color: #ffee8c;
+  color: #ED7B58;
+}
+
+.sadness {
+  background-color: #0c0c24;
+  color: #dfdfdf;
+}
+
+.fear {
+	background-color: #140805;
+	color: #e95e5e;
+}
+
+.anger {
+	background-color: #910101;
+	color:#ffc400;
+}
+
+.anger2 {
+	background-color: #520000;
+	color: #ffd3d3;
+}
+
+.disgust {
+	background-color: #636B2F;
+	color: #CBBD93;
+}
+
+.surprise {
+	background-color: #F88379;
+	color: #FFFAFA;
+}
+
 h1 {
-	font-size: 14em;
-	color: purple;
+	font-size: 8em;
+
 }
 
 p {
-	font-size: 6em;
-	color: pink;
+	font-size: 2.5em;
+}
+
+.maintext {
+	color: #EDE8D0;
+}
+
+.happytext {
+	color: #ED7B58;
+}
+
+.sadtext {
+	color: #474747;
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.no-underline {
+	text-decoration: none;
+	color: inherit;
 }
